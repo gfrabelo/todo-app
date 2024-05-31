@@ -7,11 +7,11 @@ export const routes: Routes = [
     {
         path: '',
         component: AllComponent
-    }
+    },
     {
         path: 'important',
         component: ImportantComponent
-    }
+    },
     {
         path: 'completed',
         component: CompletedComponent
