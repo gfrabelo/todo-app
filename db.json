@@ -1,8 +1,36 @@
 {
-    "tasks":[
-        {
-            "id": 1,
-            "title": "learning angular"
-        }
-    ]
+  "tasks": [
+    {
+      "id": "1",
+      "title": "learning angular"
+    },
+    {
+      "id": "dfad",
+      "title": "cu"
+    },
+    {
+      "id": "9f54",
+      "title": "teste"
+    },
+    {
+      "id": "c186",
+      "title": "3"
+    },
+    {
+      "id": "c35d",
+      "title": "priquito"
+    },
+    {
+      "id": "a7ec",
+      "title": "legal"
+    },
+    {
+      "id": "3452",
+      "title": "nice"
+    },
+    {
+      "id": "cf2a",
+      "title": "valeu"
+    }
+  ]
 }
