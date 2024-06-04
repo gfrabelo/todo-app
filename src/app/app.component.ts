@@ -6,7 +6,7 @@ import { AsideComponent } from './components/aside/aside.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent,AsideComponent],
+  imports: [RouterOutlet, HeaderComponent, AsideComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
