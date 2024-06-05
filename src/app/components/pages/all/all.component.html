@@ -1,6 +1,6 @@
 <h2 class="font-bold text-ml">My Day</h2>
 <div class="text-blue-600">
-    <span>Terça-feira</span>, <span>Junho 04, 2024</span>
+    {{ dateNow | date: 'fullDate' }}
 </div>
 
 <div class="flex mt-6">
