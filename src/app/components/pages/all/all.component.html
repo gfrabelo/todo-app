@@ -1,14 +1,3 @@
-<h2 class="font-bold text-ml">My Day</h2>
-<div class="text-blue-600">
-    {{ dateNow | date: 'fullDate' }}
-</div>
+<app-date></app-date>
 
-<div class="flex mt-6">
-    <input type="text" class="w-200 h-16 px-5 py-1 rounded shadow" placeholder="Digite sua tarefa" [(ngModel)]="newTask" (keydown.enter)="addTask()">
-</div>
-<div class="flex flex-col mt-6">
-    <h2 class="font-bold text-xl mb-3">Tarefas</h2>
-    @for (task of taskList; track task) {
-        <p class="bg-white w-100 h-16 px-4 rounded shadow flex items-center mb-3">{{ task.title }}</p>
-    }
-</div>
+<app-task-list></app-task-list>
