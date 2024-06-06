@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { DateComponent } from '../../date/date.component';
 import { TaskListComponent } from '../../task-list/task-list.component';
 
@@ -10,5 +10,8 @@ import { TaskListComponent } from '../../task-list/task-list.component';
   styles: ''
 })
 export class AllComponent {
-  
+
+  onComplete(task:any){
+    console.log("tatenu", task)
+  }
 }

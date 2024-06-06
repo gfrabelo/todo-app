@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpService } from '../../services/http.service';
 
@@ -26,5 +26,11 @@ export class TaskListComponent {
     this.HttpService.getAllTasks().subscribe((result:any) => {
       this.taskList = result
     })
+  }
+
+  @Output() closed = new EventEmitter<any>();
+
+  markClosed(task:any) {
+    this.closed.emit(task);
   }
 }
