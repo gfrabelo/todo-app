@@ -1,11 +1,12 @@
 import { Component, inject, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpService } from '../../services/http.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-task-list',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './task-list.component.html',
   styles: ''
 })
@@ -33,4 +34,6 @@ export class TaskListComponent {
   markClosed(task:any) {
     this.closed.emit(task);
   }
+
+  
 }

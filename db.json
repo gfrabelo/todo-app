@@ -2,31 +2,48 @@
   "tasks": [
     {
       "id": "c35d",
-      "title": "priquito"
+      "title": "priquito",
+      "closed": true
     },
     {
       "id": "3452",
-      "title": "nice"
+      "title": "nice",
+      "closed": true
     },
     {
       "id": "1b87",
-      "title": "testando"
+      "title": "testando",
+      "closed": true
     },
     {
       "id": "e58b",
-      "title": "ativa json server"
+      "title": "ativa json server",
+      "closed": true
     },
     {
       "id": "19d2",
-      "title": "terça feira"
+      "title": "terça feira",
+      "closed": true
     },
     {
       "id": "da00",
-      "title": "México x Brasil"
+      "title": "México x Brasil",
+      "closed": true
     },
     {
       "id": "0d8b",
-      "title": "teste"
+      "title": "teste",
+      "closed": true
+    },
+    {
+      "id": "b3d6",
+      "title": "vai",
+      "closed": true
+    },
+    {
+      "id": "b78b",
+      "title": "geovana",
+      "closed": true
     }
   ]
 }
