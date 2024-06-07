@@ -1,49 +1,26 @@
 {
   "tasks": [
     {
-      "id": "c35d",
-      "title": "priquito",
+      "id": "8b86",
+      "title": "lavar louça",
       "closed": true
     },
     {
-      "id": "3452",
-      "title": "nice",
+      "id": "0189",
+      "title": "tirar lixo",
       "closed": true
     },
     {
-      "id": "1b87",
-      "title": "testando",
-      "closed": true
+      "id": "2d95",
+      "title": "todo App"
     },
     {
-      "id": "e58b",
-      "title": "ativa json server",
-      "closed": true
+      "id": "73a8",
+      "title": "vagas"
     },
     {
-      "id": "19d2",
-      "title": "terça feira",
-      "closed": true
-    },
-    {
-      "id": "da00",
-      "title": "México x Brasil",
-      "closed": true
-    },
-    {
-      "id": "0d8b",
-      "title": "teste",
-      "closed": true
-    },
-    {
-      "id": "b3d6",
-      "title": "vai",
-      "closed": true
-    },
-    {
-      "id": "b78b",
-      "title": "geovana",
-      "closed": true
+      "id": "e09f",
+      "title": "banho miguel"
     }
   ]
 }
