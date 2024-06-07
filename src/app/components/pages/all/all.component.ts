@@ -1,4 +1,3 @@
-import { CompletedComponent } from './../completed/completed.component';
 import { HttpService } from './../../../services/http.service';
 import { Component, inject } from '@angular/core';
 import { DateComponent } from '../../date/date.component';
