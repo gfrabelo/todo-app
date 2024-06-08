@@ -12,7 +12,8 @@
     },
     {
       "id": "2d95",
-      "title": "todo App"
+      "title": "todo App",
+      "closed": true
     },
     {
       "id": "73a8",
@@ -20,7 +21,8 @@
     },
     {
       "id": "e09f",
-      "title": "banho miguel"
+      "title": "banho miguel",
+      "closed": true
     }
   ]
 }

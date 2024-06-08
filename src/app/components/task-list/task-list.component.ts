@@ -34,6 +34,4 @@ export class TaskListComponent {
   markClosed(task:any) {
     this.closed.emit(task);
   }
-
-  
 }
