@@ -1,12 +1,12 @@
-<section>
+<section >
     <div class="flex mt-6">
         <input type="text"
         class="h-16 px-5 py-1 rounded shadow"
         placeholder="Digite sua tarefa"
-        [(ngModel)]="newTask"
+        [(ngModel)]="newTask"(closed)="onComplete($event)"
         (keydown.enter)="addTask()">
     </div>
-    <div class="flex flex-col mt-6 w-96" (closed)="onComplete($event)">
+    <div class="flex flex-col mt-6 w-96" >
         <h2 class="font-bold text-xl mb-5">Tarefas</h2>
         @for (task of taskList; track task) {
             <div class="flex justify-between bg-white h-16 px-4 rounded shadow items-center mb-3">
