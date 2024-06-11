@@ -1,38 +1,12 @@
 {
   "tasks": [
     {
-      "id": "8b86",
-      "title": "lavar louça",
-      "closed": true
+      "id": "f9f4",
+      "title": "terreno ge"
     },
     {
-      "id": "0189",
-      "title": "tirar lixo",
-      "closed": true
-    },
-    {
-      "id": "2d95",
-      "title": "todo App",
-      "closed": true
-    },
-    {
-      "id": "73a8",
-      "title": "vagas",
-      "closed": true
-    },
-    {
-      "id": "e09f",
-      "title": "banho miguel",
-      "closed": true
-    },
-    {
-      "id": "63f4",
-      "title": "debug",
-      "closed": true
-    },
-    {
-      "id": "13fc",
-      "title": "studing"
+      "id": "ce66",
+      "title": "medico mig"
     }
   ]
 }
