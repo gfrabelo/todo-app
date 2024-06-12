@@ -13,6 +13,7 @@ import { StateService } from '../../services/state.service';
 })
 export class TaskListComponent {
   newTask = "";
+  initialTaskList:any = []=[];
   taskList:any = []=[];
   HttpService = inject(HttpService);
   stateService = inject(StateService);
@@ -22,6 +23,8 @@ export class TaskListComponent {
         this.taskList = this.taskList.filter((x:any) =>
            x.title.toLowerCase().includes(value.toLowerCase())
         );
+      } else {
+        this.taskList = this.initialTaskList;
       }
     });
     this.getAllTasks();
@@ -29,12 +32,12 @@ export class TaskListComponent {
   addTask(){
     this.HttpService.addTask(this.newTask).subscribe(() => {
       this.newTask="";
-      this.getAllTasks()
+      this.getAllTasks();
     })
   }
   getAllTasks(){
     this.HttpService.getAllTasks().subscribe((result:any) => {
-      this.taskList = result
+      this.initialTaskList = this.taskList = result;
     })
   }
 
