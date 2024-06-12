@@ -2,6 +2,7 @@ import { Component, inject, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpService } from '../../services/http.service';
 import { CommonModule } from '@angular/common';
+import { StateService } from '../../services/state.service';
 
 @Component({
     selector: 'app-task-list',
@@ -14,7 +15,15 @@ export class TaskListComponent {
   newTask = "";
   taskList:any = []=[];
   HttpService = inject(HttpService);
+  stateService = inject(StateService);
   ngOnInit (){
+    this.stateService.searchSubject.subscribe((value) => {
+      if (value) {
+        this.taskList = this.taskList.filter((x:any) =>
+           x.title.toLowerCase().includes(value.toLowerCase())
+        );
+      }
+    });
     this.getAllTasks();
   }
   addTask(){
