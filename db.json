@@ -1,44 +1,20 @@
 {
   "tasks": [
     {
-      "id": "164f",
-      "title": "terreno ge"
+      "id": "35ac",
+      "title": "leitura"
     },
     {
-      "id": "725e",
-      "title": "cortar cabelo"
-    },
-    {
-      "id": "117b",
-      "title": "studing IA"
-    },
-    {
-      "id": "55fa",
-      "title": "finish TodoApp"
-    },
-    {
-      "id": "db65",
-      "title": "mimo JS"
-    },
-    {
-      "id": "3d3d",
+      "id": "d0a3",
       "title": "Duolingo"
     },
     {
-      "id": "5d8e",
-      "title": "limpar casa"
+      "id": "9a5c",
+      "title": "MimoJs"
     },
     {
-      "id": "8297",
-      "title": "2frame Fotos"
-    },
-    {
-      "id": "6212",
-      "title": "vagas"
-    },
-    {
-      "id": "b78f",
-      "title": "reading"
+      "id": "1bce",
+      "title": "skate"
     }
   ]
 }
