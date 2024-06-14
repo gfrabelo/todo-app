@@ -2,6 +2,6 @@
 <main class="bg-blue-200 pl-auto min-h-screen h-auto py-8 px-4">
     <section class="flex flex-wrap w-96 m-auto">
         <app-date></app-date>
-        <app-task-list></app-task-list>
+        <app-task-list (closed)="onComplete($event)"></app-task-list>
     </section>
 </main>

@@ -41,13 +41,6 @@ export class TaskListComponent {
     })
   }
 
-  onComplete(task:any){
-    task.closed = true;
-    this.HttpService.updateTask(task).subscribe(() => {
-      this.getAllTasks();
-    })
-  }
-
   @Output() closed = new EventEmitter<any>();
 
   markClosed(task:any) {
