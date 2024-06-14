@@ -13,6 +13,7 @@ import { StateService } from '../../services/state.service';
 export class HeaderComponent {
   stateService = inject(StateService);
   searchControl = new FormControl('');
+  
   ngOnInit () {
     this.searchControl.valueChanges.pipe(debounceTime(250)).subscribe((value) => {
       this.stateService.searchSubject.next(value || '')

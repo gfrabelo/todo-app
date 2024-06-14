@@ -12,11 +12,13 @@ import { StateService } from '../../services/state.service';
     imports: [FormsModule, CommonModule]
 })
 export class TaskListComponent {
+  
   newTask = "";
   initialTaskList:any = []=[];
   taskList:any = []=[];
   HttpService = inject(HttpService);
   stateService = inject(StateService);
+
   ngOnInit (){
     this.stateService.searchSubject.subscribe((value) => {
       if (value) {
