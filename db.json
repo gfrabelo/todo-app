@@ -1,8 +1,32 @@
 {
   "tasks": [
     {
-      "id": "8f82",
-      "title": "conseguir um emprego"
+      "id": "fe27",
+      "title": "Mig creche"
+    },
+    {
+      "id": "3a06",
+      "title": "enrolar brigadeiros"
+    },
+    {
+      "id": "2f0b",
+      "title": "organizar casa"
+    },
+    {
+      "id": "09f6",
+      "title": "bate-papo Ubiminds"
+    },
+    {
+      "id": "6b61",
+      "title": "read"
+    },
+    {
+      "id": "e8e5",
+      "title": "study and commit"
+    },
+    {
+      "id": "35fa",
+      "title": "reunião sidney"
     }
   ]
 }
